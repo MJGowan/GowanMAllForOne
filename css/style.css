@@ -1,11 +1,20 @@
 body{
     background-color:#567568;
     color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .darkGreen{
     background-color:#022F1C;
     color:white;
 }
-h1{
 
+.indexBtn{
+    justify-content:center;
+    width:170px;
+    height:70px;
+    border-color:#022F1C;
+}
+
+.changeText{
+    font-size:large;
 }

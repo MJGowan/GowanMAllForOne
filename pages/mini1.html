@@ -15,7 +15,7 @@
     <div class="col-2">
   <nav class="navbar darkGreen">
     <div class="container-fluid">
-      <a class="navbar-brand darkGreen text" href="#">All For One</a>
+      <a onclick="location.href='../index.html'" class="navbar-brand darkGreen text" href="#">All For One</a>
     </div>
   </nav>
 </div>
@@ -24,26 +24,30 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-12">
-        <h1 class="text-center mt-5">Hello Mini Challenge</h1>
+        <h1 class="text-center mt-5">Say Hello</h1>
       </div>
     </div>
+    
+    <br>
 
     <div class="row">
+      <div class="col-2"></div>
       <div class="col-6">
-        <input id="nameInput" type="text" class="form w-100" placeholder="Enter Your Name Here">
+        <input id="nameInput" type="text" class="form w-100 h-100" placeholder="Enter Your Name Here">
       </div>
-      <div id="helloReturn" class="col-6">Text Will Go Here</div>
+      <div class="col-3">
+        <button id="helloSubBtn" type="button" class="darkGreen indexBtn">Submit Name</button>
+      </div>
     </div>
+
+    <br>
 
     <div class="row">
+      <div class="col-2"></div>
       <div class="col-6">
-        <button id="helloSubBtn" type="button" class="btn darkGreen">Submit Name</button>
-      </div>
-      <div class="col-6"></div>
-    </div>
-
-
-
+    <div id="helloReturn" class="changeText">What is your name?</div>
+  </div>
+</div>
 
 
 

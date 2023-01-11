@@ -6,8 +6,6 @@ let helloSubBtn = document.getElementById("helloSubBtn");
 let savedInput = "";
 let sayHelloUrl = "";
 
-
-
 helloSubBtn.addEventListener("click", function () {
 
 })
@@ -24,7 +22,6 @@ function urlCall() {
 }
 
 function helloApi(nameInput){
-    var letters = /^[A-Za-z]+$/;
     if(nameInput.value){
         savedInput = nameInput.value;
         sayHelloUrl = "https://scottsallforone.azurewebsites.net/AllForOne/miniCh1/" + savedInput;
