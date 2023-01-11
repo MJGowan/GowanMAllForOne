@@ -7,10 +7,10 @@ let savedInput = "";
 let sayHelloUrl = "";
 
 helloSubBtn.addEventListener("click", function () {
-
+    helloApi(nameInput)
 })
 
-function urlCall() {
+function urlCall(url) {
     fetch(url).then(
         response => response.text()
     ).then(
@@ -21,12 +21,12 @@ function urlCall() {
     )
 }
 
-function helloApi(nameInput){
-    if(nameInput.value){
+function helloApi(nameInput) {
+    if (nameInput.value) {
         savedInput = nameInput.value;
-        sayHelloUrl = "https://scottsallforone.azurewebsites.net/AllForOne/miniCh1/" + savedInput;
+        sayHelloUrl = "https://maddiesallforone.azurewebsites.net/Challenge/Hello/" + savedInput;
         urlCall(sayHelloUrl);
-    }else{
+    } else {
         helloReturn.textContent = "Enter a valid response";
     }
 }
