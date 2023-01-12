@@ -1,8 +1,17 @@
+@font-face {
+    font-family:Acme;
+    src: url("../assets/Acme-Regular.ttf");
+}
+
 body{
     background-color:#567568;
     color:white;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:Acme;
 }
+h1{
+    font-size:3.2rem;
+}
+
 .darkGreen{
     background-color:#022F1C;
     color:white;
@@ -16,5 +25,69 @@ body{
 }
 
 .changeText{
-    font-size:large;
+    font-size:x-large;
+}
+.colorIndex{
+    -webkit-text-stroke: 0.3px goldenrod;
+    text-shadow: -1px 1px 2px goldenrod,
+				  1px 2px 6px goldenrod,
+				  1px -1px 0 goldenrod;	  
+}
+.colorOne{
+    -webkit-text-stroke: 0.3px goldenrod;
+    text-shadow: -1px 1px 2px goldenrod,
+				  1px 2px 6px goldenrod,
+				  1px -1px 0 goldenrod;
+}
+.colorTwo{
+    -webkit-text-stroke: 0.1px #022F1C;
+    text-shadow: -1px 1px 2px #022F1C,
+				  1px 2px 6px #022F1C,
+				  1px -1px 0 #022F1C;
+}
+.colorThree{
+    -webkit-text-stroke: 0.1px #022F1C;
+    text-shadow: -1px 1px 2px #022F1C,
+				  1px 2px 6px #022F1C,
+				  1px -1px 0 #022F1C;
+}
+.colorFour{
+    -webkit-text-stroke: 0.1px #022F1C;
+    text-shadow: -1px 1px 2px #022F1C,
+				  1px 2px 6px #022F1C,
+				  1px -1px 0 #022F1C;
+}
+.colorFive{
+    -webkit-text-stroke: 0.1px #022F1C;
+    text-shadow: -1px 1px 2px #022F1C,
+				  1px 2px 6px #022F1C,
+				  1px -1px 0 #022F1C;
+}
+.bodyIndex{
+    background-image: url("../assets/image.png");
+    background-size:cover;
+}
+.bodyOne{
+    background-image: url("../assets/image\ \(1\).png");
+    background-size:cover;
+}
+.bodyTwo{
+    background-image: url("../assets/image\ \(3\).png");
+    background-size:cover;
+}
+.bodyThree{
+    background-image: url("../assets/HarvestMouse-1136x640.jpg");
+    background-size:cover;
+}
+.bodyFour{
+    background-image: url("../assets/pika-angry.jpg");
+    background-size:cover;
+}
+.bodyFive{
+    background-image: url("../assets/c64fa85e83f06ccb197b068bbd42290d.jpg");
+    background-size:cover;
+}
+.bodySix{
+    background-image: url("../assets/9a6d4f93cf4c3c97453f6c74dd7a941b--wild-hamsters-chipmunks.jpg");
+    background-size:cover;
 }
