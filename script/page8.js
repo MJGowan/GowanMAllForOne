@@ -24,7 +24,7 @@ function urlCall(url) {
 function helloApi(nameInput) {
     if (nameInput.value) {
         savedInput = nameInput.value;
-        sayHelloUrl = "https://maddiesallforone.azurewebsites.net/Challenge/GetStudentByFirstName/" + savedInput;
+        sayHelloUrl = "https://maddiesallforone.azurewebsites.net/Challenge/GetStudent/" + savedInput;
         urlCall(sayHelloUrl);
     } else {
         helloReturn.textContent = "Enter a valid response";
