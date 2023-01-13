@@ -15,6 +15,8 @@ h1{
 .darkGreen{
     background-color:#022F1C;
     color:white;
+    border-radius: 8px;
+    border-width:1px;
 }
 
 .indexBtn{
@@ -28,22 +30,22 @@ h1{
     font-size:x-large;
 }
 .colorIndex{
-    -webkit-text-stroke: 0.3px goldenrod;
-    text-shadow: -1px 1px 2px goldenrod,
-				  1px 2px 6px goldenrod,
-				  1px -1px 0 goldenrod;	  
+    -webkit-text-stroke: 0.1px #2e251b;
+    text-shadow: -1px 1px 2px #2e251b,
+				  1px 2px 6px #2e251b,
+				  1px -1px 0 #2e251b;	  
 }
 .colorOne{
-    -webkit-text-stroke: 0.3px goldenrod;
-    text-shadow: -1px 1px 2px goldenrod,
-				  1px 2px 6px goldenrod,
-				  1px -1px 0 goldenrod;
+    -webkit-text-stroke: 0.3px rgb(145, 106, 6);
+    text-shadow: -1px 1px 2px rgb(145, 106, 6),
+				  1px 2px 6px rgb(145, 106, 6),
+				  1px -1px 0 rgb(145, 106, 6);
 }
 .colorTwo{
-    -webkit-text-stroke: 0.1px #022F1C;
-    text-shadow: -1px 1px 2px #022F1C,
-				  1px 2px 6px #022F1C,
-				  1px -1px 0 #022F1C;
+    -webkit-text-stroke: 0.1px #84531b;
+    text-shadow: -1px 1px 2px #2e251b,
+				  1px 2px 6px #84531b,
+				  1px -1px 0 #2e251b;
 }
 .colorThree{
     -webkit-text-stroke: 0.1px #022F1C;
@@ -52,19 +54,43 @@ h1{
 				  1px -1px 0 #022F1C;
 }
 .colorFour{
-    -webkit-text-stroke: 0.1px #022F1C;
-    text-shadow: -1px 1px 2px #022F1C,
-				  1px 2px 6px #022F1C,
-				  1px -1px 0 #022F1C;
+    -webkit-text-stroke: 0.1px #2e251b;
+    text-shadow: -1px 1px 2px #2e251b,
+				  1px 2px 6px #2e251b,
+				  1px -1px 0 #2e251b;
 }
 .colorFive{
+    -webkit-text-stroke: 0.1px #2e251b;
+    text-shadow: -1px 1px 2px #2e251b,
+				  1px 2px 6px #2e251b,
+				  1px -1px 0 #2e251b;
+}
+.colorSix{
     -webkit-text-stroke: 0.1px #022F1C;
     text-shadow: -1px 1px 2px #022F1C,
 				  1px 2px 6px #022F1C,
 				  1px -1px 0 #022F1C;
 }
+.colorSeven{
+    -webkit-text-stroke: 0.1px #2e251b;
+    text-shadow: -1px 1px 2px #2b6c24,
+				  1px 2px 6px #2e251b,
+				  1px -1px 0 #2e251b;
+}
+.colorEight{
+    -webkit-text-stroke: 0.1px #2e251b;
+    text-shadow: -1px 1px 2px #2e251b,
+				  1px 2px 6px #2e251b,
+				  1px -1px 0 #2e251b;
+}
+.colorNine{
+    -webkit-text-stroke: 0.1px #2e251b;
+    text-shadow: -1px 1px 2px #352e25,
+				  1px 2px 6px #2e251b,
+				  1px -1px 0 #2e251b;
+}
 .bodyIndex{
-    background-image: url("../assets/image.png");
+    background-image: url("../assets/aaa.jpg");
     background-size:cover;
 }
 .bodyOne{
@@ -72,22 +98,40 @@ h1{
     background-size:cover;
 }
 .bodyTwo{
-    background-image: url("../assets/image\ \(3\).png");
+    background-image: url("../assets/test.jpg");
     background-size:cover;
 }
 .bodyThree{
-    background-image: url("../assets/HarvestMouse-1136x640.jpg");
+    background-image: url("../assets/Rabbit-71746.jpg");
     background-size:cover;
 }
 .bodyFour{
-    background-image: url("../assets/pika-angry.jpg");
+    background-image: url("../assets/pika3.jpg");
     background-size:cover;
 }
 .bodyFive{
-    background-image: url("../assets/c64fa85e83f06ccb197b068bbd42290d.jpg");
+    background-image: url("../assets/pika.jpg");
     background-size:cover;
 }
 .bodySix{
-    background-image: url("../assets/9a6d4f93cf4c3c97453f6c74dd7a941b--wild-hamsters-chipmunks.jpg");
+    background-image: url("../assets/shroom.jpg");
     background-size:cover;
+}
+.bodySeven{
+    background-image: url("../assets/maybe.jpg");
+    background-size:cover;
+}
+.bodyEight{
+    background-image: url("../assets/im.jpg");
+    background-size:cover;
+}
+.bodyNine{
+    background-image: url("../assets/boot.jpg");
+    background-size:cover;
+}
+
+.formChange{
+    border-radius:8px;
+    border-width:1px;
+    border-color:#022F1C;
 }
