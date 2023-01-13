@@ -16,7 +16,7 @@ function urlCall(url) {
     ).then(
         data => {
             helloReturn.textContent = data;
-            console.log(data);
+            console.log(data.firstName);
         }
     )
 }
